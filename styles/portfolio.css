@@ -124,3 +124,26 @@ main {
   font-size: 30px;
   font-weight: 700;
 }
+
+.resume-containter {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+}
+.resume-item-institute,
+.resume-item-description {
+  color: rgb(117, 117, 117);
+}
+
+.resume-item-institute {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.resume-containter hr {
+  margin: 30px;
+}
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
+}
